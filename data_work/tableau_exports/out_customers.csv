@@ -1,0 +1,400 @@
+customer_key,customer_name,state,revenue,profit,orders,segment
+Shishu | Andhra Pradesh,Shishu,Andhra Pradesh,3803.0,-1836.0,1,One-time
+Krutika | Andhra Pradesh,Krutika,Andhra Pradesh,2567.0,391.0,1,One-time
+Saurabh | Andhra Pradesh,Saurabh,Andhra Pradesh,146.0,7.0,1,One-time
+Teena | Andhra Pradesh,Teena,Andhra Pradesh,137.0,-41.0,1,One-time
+Shreya | Andhra Pradesh,Shreya,Andhra Pradesh,171.0,-140.0,1,One-time
+Mane | Andhra Pradesh,Mane,Andhra Pradesh,391.0,113.0,1,One-time
+Ankur | Andhra Pradesh,Ankur,Andhra Pradesh,646.0,-23.0,1,One-time
+Devendra | Andhra Pradesh,Devendra,Andhra Pradesh,373.0,-254.0,1,One-time
+Pranav | Andhra Pradesh,Pranav,Andhra Pradesh,1385.0,208.0,1,One-time
+Ananya | Andhra Pradesh,Ananya,Andhra Pradesh,16.0,5.0,1,One-time
+Akanksha | Andhra Pradesh,Akanksha,Andhra Pradesh,27.0,-15.0,1,One-time
+Soumyabrata | Andhra Pradesh,Soumyabrata,Andhra Pradesh,1510.0,290.0,1,One-time
+Sanjana | Bihar,Sanjana,Bihar,1183.0,106.0,1,One-time
+Sajal | Bihar,Sajal,Bihar,42.0,-3.0,1,One-time
+Smriti | Bihar,Smriti,Bihar,147.0,25.0,1,One-time
+Pratyusmita | Bihar,Pratyusmita,Bihar,1570.0,-223.0,1,One-time
+Akshay | Bihar,Akshay,Bihar,845.0,-676.0,1,One-time
+Krutika | Bihar,Krutika,Bihar,545.0,-73.0,1,One-time
+Kartikay | Bihar,Kartikay,Bihar,890.0,34.0,1,One-time
+Amol | Bihar,Amol,Bihar,2262.0,745.0,1,One-time
+Apsingekar | Bihar,Apsingekar,Bihar,478.0,25.0,1,One-time
+Sujay | Delhi,Sujay,Delhi,2233.0,450.0,1,One-time
+Harsh | Delhi,Harsh,Delhi,681.0,128.0,1,One-time
+Hemangi | Delhi,Hemangi,Delhi,13.0,3.0,1,One-time
+Diwakar | Delhi,Diwakar,Delhi,2342.0,420.0,1,One-time
+Harshal | Delhi,Harshal,Delhi,6026.0,864.0,1,One-time
+Manjiri | Delhi,Manjiri,Delhi,387.0,11.0,1,One-time
+Atul | Delhi,Atul,Delhi,1034.0,-122.0,1,One-time
+Pradeep | Delhi,Pradeep,Delhi,179.0,25.0,1,One-time
+Swapnil | Delhi,Swapnil,Delhi,954.0,143.0,1,One-time
+Yohann | Delhi,Yohann,Delhi,1314.0,342.0,1,One-time
+Amruta | Delhi,Amruta,Delhi,1318.0,377.0,1,One-time
+Geetanjali | Delhi,Geetanjali,Delhi,103.0,21.0,1,One-time
+Mugdha | Delhi,Mugdha,Delhi,71.0,32.0,1,One-time
+Preksha | Delhi,Preksha,Delhi,102.0,11.0,1,One-time
+Patil | Delhi,Patil,Delhi,220.0,28.0,1,One-time
+Shubham | Delhi,Shubham,Delhi,1316.0,253.0,1,One-time
+Nirja | Delhi,Nirja,Delhi,79.0,24.0,1,One-time
+Bhargav | Delhi,Bhargav,Delhi,152.0,50.0,1,One-time
+Jay | Delhi,Jay,Delhi,3574.0,-265.0,1,One-time
+Anjali | Delhi,Anjali,Delhi,764.0,156.0,1,One-time
+Prashant | Delhi,Prashant,Delhi,994.0,275.0,1,One-time
+Omkar | Delhi,Omkar,Delhi,196.0,-7.0,1,One-time
+Abhijit | Delhi,Abhijit,Delhi,78.0,27.0,1,One-time
+Vikash | Goa,Vikash,Goa,1350.0,278.0,1,One-time
+Charika | Goa,Charika,Goa,768.0,-4.0,1,One-time
+Abhishek | Goa,Abhishek,Goa,2393.0,685.0,1,One-time
+Vivek | Goa,Vivek,Goa,114.0,7.0,1,One-time
+Pooja | Goa,Pooja,Goa,322.0,-193.0,1,One-time
+Ashwin | Goa,Ashwin,Goa,11.0,-8.0,1,One-time
+Swetlana | Goa,Swetlana,Goa,31.0,-11.0,1,One-time
+Moumita | Gujarat,Moumita,Gujarat,234.0,39.0,1,One-time
+Noshiba | Gujarat,Noshiba,Gujarat,58.0,-52.0,1,One-time
+Kartik | Gujarat,Kartik,Gujarat,1142.0,-297.0,1,One-time
+Shreyshi | Gujarat,Shreyshi,Gujarat,3343.0,251.0,1,One-time
+Akshata | Gujarat,Akshata,Gujarat,52.0,18.0,1,One-time
+Arsheen | Gujarat,Arsheen,Gujarat,285.0,-149.0,1,One-time
+Divyansh | Gujarat,Divyansh,Gujarat,367.0,-225.0,1,One-time
+Gaurav | Gujarat,Gaurav,Gujarat,3208.0,970.0,1,One-time
+Surbhi | Gujarat,Surbhi,Gujarat,954.0,154.0,1,One-time
+Utkarsh | Gujarat,Utkarsh,Gujarat,80.0,26.0,1,One-time
+Aayushi | Gujarat,Aayushi,Gujarat,281.0,84.0,1,One-time
+Dashyam | Gujarat,Dashyam,Gujarat,1430.0,609.0,1,One-time
+Saptadeep | Gujarat,Saptadeep,Gujarat,404.0,80.0,1,One-time
+Sathya | Gujarat,Sathya,Gujarat,388.0,93.0,1,One-time
+Chetan | Gujarat,Chetan,Gujarat,497.0,68.0,1,One-time
+Gunjal | Gujarat,Gunjal,Gujarat,118.0,25.0,1,One-time
+Rutuja | Gujarat,Rutuja,Gujarat,1511.0,-900.0,1,One-time
+Suraj | Gujarat,Suraj,Gujarat,468.0,95.0,1,One-time
+Shardul | Gujarat,Shardul,Gujarat,1907.0,420.0,1,One-time
+Abhishek | Gujarat,Abhishek,Gujarat,264.0,64.0,1,One-time
+Trupti | Gujarat,Trupti,Gujarat,2017.0,131.0,1,One-time
+Apoorva | Haryana,Apoorva,Haryana,345.0,38.0,1,One-time
+Anchal | Haryana,Anchal,Haryana,369.0,-7.0,1,One-time
+Duhita | Haryana,Duhita,Haryana,50.0,-17.0,1,One-time
+Anjali | Haryana,Anjali,Haryana,1942.0,245.0,1,One-time
+Daksh | Haryana,Daksh,Haryana,133.0,-56.0,1,One-time
+Ankit | Haryana,Ankit,Haryana,1101.0,352.0,1,One-time
+Aniket | Haryana,Aniket,Haryana,907.0,296.0,1,One-time
+Pooja | Himachal Pradesh,Pooja,Himachal Pradesh,2542.0,-572.0,1,One-time
+Shubham | Himachal Pradesh,Shubham,Himachal Pradesh,8.0,-2.0,1,One-time
+Rohan | Himachal Pradesh,Rohan,Himachal Pradesh,811.0,79.0,1,One-time
+Rhea | Himachal Pradesh,Rhea,Himachal Pradesh,123.0,17.0,1,One-time
+Aastha | Himachal Pradesh,Aastha,Himachal Pradesh,3276.0,873.0,1,One-time
+Aditya | Himachal Pradesh,Aditya,Himachal Pradesh,176.0,37.0,1,One-time
+Komal | Himachal Pradesh,Komal,Himachal Pradesh,51.0,14.0,1,One-time
+Shikhar | Himachal Pradesh,Shikhar,Himachal Pradesh,120.0,26.0,1,One-time
+Inderpreet | Himachal Pradesh,Inderpreet,Himachal Pradesh,48.0,-8.0,1,One-time
+Vijay | Jammu and Kashmir,Vijay,Jammu and Kashmir,1995.0,-292.0,1,One-time
+Asish | Jammu and Kashmir,Asish,Jammu and Kashmir,965.0,-320.0,1,One-time
+Shubham | Jammu and Kashmir,Shubham,Jammu and Kashmir,311.0,72.0,1,One-time
+Srishti | Jammu and Kashmir,Srishti,Jammu and Kashmir,416.0,137.0,1,One-time
+Noopur | Karnataka,Noopur,Karnataka,1607.0,-207.0,1,One-time
+Tejas | Karnataka,Tejas,Karnataka,34.0,13.0,1,One-time
+Shreyoshe | Karnataka,Shreyoshe,Karnataka,1582.0,-443.0,1,One-time
+Stuti | Karnataka,Stuti,Karnataka,351.0,15.0,1,One-time
+Abhishek | Karnataka,Abhishek,Karnataka,2538.0,196.0,1,One-time
+Anubhaw | Karnataka,Anubhaw,Karnataka,16.0,-5.0,1,One-time
+Prajakta | Karnataka,Prajakta,Karnataka,148.0,54.0,1,One-time
+Arpita | Karnataka,Arpita,Karnataka,1301.0,573.0,1,One-time
+Bathina | Karnataka,Bathina,Karnataka,425.0,-74.0,1,One-time
+Sneha | Karnataka,Sneha,Karnataka,806.0,199.0,1,One-time
+Sudheer | Karnataka,Sudheer,Karnataka,477.0,62.0,1,One-time
+Snel | Kerala,Snel,Kerala,1245.0,451.0,1,One-time
+Suman | Kerala,Suman,Kerala,207.0,78.0,1,One-time
+Shourya | Kerala,Shourya,Kerala,3205.0,354.0,1,One-time
+Girase | Kerala,Girase,Kerala,1678.0,316.0,1,One-time
+Chayanika | Kerala,Chayanika,Kerala,166.0,-113.0,1,One-time
+Manibalan | Kerala,Manibalan,Kerala,189.0,87.0,1,One-time
+Avish | Kerala,Avish,Kerala,993.0,80.0,1,One-time
+Meghana | Madhya Pradesh,Meghana,Madhya Pradesh,139.0,14.0,1,One-time
+Madhulika | Madhya Pradesh,Madhulika,Madhya Pradesh,1549.0,-439.0,1,One-time
+Anand | Madhya Pradesh,Anand,Madhya Pradesh,1149.0,264.0,1,One-time
+Anudeep | Madhya Pradesh,Anudeep,Madhya Pradesh,1441.0,-528.0,1,One-time
+Karandeep | Madhya Pradesh,Karandeep,Madhya Pradesh,244.0,122.0,1,One-time
+Kartik | Madhya Pradesh,Kartik,Madhya Pradesh,1166.0,386.0,1,One-time
+Navdeep | Madhya Pradesh,Navdeep,Madhya Pradesh,482.0,-6.0,1,One-time
+Shweta | Madhya Pradesh,Shweta,Madhya Pradesh,46.0,0.0,1,One-time
+Dipali | Madhya Pradesh,Dipali,Madhya Pradesh,57.0,6.0,1,One-time
+Shreya | Madhya Pradesh,Shreya,Madhya Pradesh,929.0,-93.0,1,One-time
+Vaibhav | Madhya Pradesh,Vaibhav,Madhya Pradesh,3065.0,241.0,1,One-time
+Divyeta | Madhya Pradesh,Divyeta,Madhya Pradesh,1757.0,455.0,1,One-time
+Mhatre | Madhya Pradesh,Mhatre,Madhya Pradesh,1133.0,-9.0,1,One-time
+Shyam | Madhya Pradesh,Shyam,Madhya Pradesh,101.0,38.0,1,One-time
+Mitali | Madhya Pradesh,Mitali,Madhya Pradesh,244.0,83.0,1,One-time
+Bhutekar | Madhya Pradesh,Bhutekar,Madhya Pradesh,71.0,-14.0,1,One-time
+Amlan | Madhya Pradesh,Amlan,Madhya Pradesh,1210.0,287.0,1,One-time
+Dhanraj | Madhya Pradesh,Dhanraj,Madhya Pradesh,632.0,-114.0,1,One-time
+Ekta | Madhya Pradesh,Ekta,Madhya Pradesh,674.0,-449.0,1,One-time
+Pranav | Madhya Pradesh,Pranav,Madhya Pradesh,108.0,-19.0,1,One-time
+Ginny | Madhya Pradesh,Ginny,Madhya Pradesh,381.0,65.0,1,One-time
+Maithilee | Madhya Pradesh,Maithilee,Madhya Pradesh,174.0,-94.0,1,One-time
+Mohit | Madhya Pradesh,Mohit,Madhya Pradesh,3912.0,55.0,1,One-time
+Sauptik | Madhya Pradesh,Sauptik,Madhya Pradesh,3287.0,-927.0,1,One-time
+Aakanksha | Madhya Pradesh,Aakanksha,Madhya Pradesh,74.0,-18.0,1,One-time
+Shivanshu | Madhya Pradesh,Shivanshu,Madhya Pradesh,3266.0,820.0,1,One-time
+Mansi | Madhya Pradesh,Mansi,Madhya Pradesh,291.0,48.0,1,One-time
+Muskan | Madhya Pradesh,Muskan,Madhya Pradesh,2268.0,627.0,1,One-time
+Kishwar | Madhya Pradesh,Kishwar,Madhya Pradesh,1013.0,-146.0,1,One-time
+Priyanka | Madhya Pradesh,Priyanka,Madhya Pradesh,1752.0,295.0,1,One-time
+Abhijeet | Madhya Pradesh,Abhijeet,Madhya Pradesh,4613.0,1432.0,1,One-time
+Harsh | Madhya Pradesh,Harsh,Madhya Pradesh,877.0,395.0,1,One-time
+Savi | Madhya Pradesh,Savi,Madhya Pradesh,1361.0,-980.0,1,One-time
+Hitesh | Madhya Pradesh,Hitesh,Madhya Pradesh,3548.0,117.0,1,One-time
+Krishna | Madhya Pradesh,Krishna,Madhya Pradesh,145.0,47.0,1,One-time
+Rohan | Madhya Pradesh,Rohan,Madhya Pradesh,834.0,239.0,1,One-time
+Shruti | Madhya Pradesh,Shruti,Madhya Pradesh,3211.0,268.0,1,One-time
+Kshitij | Madhya Pradesh,Kshitij,Madhya Pradesh,259.0,47.0,1,One-time
+Swapnil | Madhya Pradesh,Swapnil,Madhya Pradesh,580.0,204.0,1,One-time
+Parna | Madhya Pradesh,Parna,Madhya Pradesh,975.0,-535.0,1,One-time
+Oshin | Madhya Pradesh,Oshin,Madhya Pradesh,1904.0,660.0,1,One-time
+Ankur | Madhya Pradesh,Ankur,Madhya Pradesh,417.0,49.0,1,One-time
+Turumella | Madhya Pradesh,Turumella,Madhya Pradesh,384.0,66.0,1,One-time
+Chikku | Madhya Pradesh,Chikku,Madhya Pradesh,724.0,253.0,1,One-time
+Arun | Madhya Pradesh,Arun,Madhya Pradesh,85.0,-1.0,1,One-time
+Shubham | Madhya Pradesh,Shubham,Madhya Pradesh,187.0,-15.0,1,One-time
+Swati | Madhya Pradesh,Swati,Madhya Pradesh,86.0,8.0,1,One-time
+Jaydeep | Madhya Pradesh,Jaydeep,Madhya Pradesh,30.0,11.0,1,One-time
+Bhawna | Madhya Pradesh,Bhawna,Madhya Pradesh,3599.0,-575.0,1,One-time
+Gunjan | Madhya Pradesh,Gunjan,Madhya Pradesh,31.0,10.0,1,One-time
+Priyanshu | Madhya Pradesh,Priyanshu,Madhya Pradesh,1213.0,-278.0,1,One-time
+Rahul | Madhya Pradesh,Rahul,Madhya Pradesh,105.0,33.0,1,One-time
+Mahima | Madhya Pradesh,Mahima,Madhya Pradesh,1320.0,62.0,1,One-time
+Shatayu | Madhya Pradesh,Shatayu,Madhya Pradesh,1571.0,421.0,1,One-time
+Aditi | Madhya Pradesh,Aditi,Madhya Pradesh,1382.0,-159.0,1,One-time
+Yogesh | Madhya Pradesh,Yogesh,Madhya Pradesh,2587.0,247.0,1,One-time
+Shivani | Madhya Pradesh,Shivani,Madhya Pradesh,243.0,79.0,1,One-time
+Sandeep | Madhya Pradesh,Sandeep,Madhya Pradesh,265.0,73.0,1,One-time
+Swetha | Madhya Pradesh,Swetha,Madhya Pradesh,352.0,-345.0,1,One-time
+Phalguni | Madhya Pradesh,Phalguni,Madhya Pradesh,40.0,15.0,1,One-time
+Aayushi | Madhya Pradesh,Aayushi,Madhya Pradesh,73.0,-25.0,1,One-time
+Aryan | Madhya Pradesh,Aryan,Madhya Pradesh,149.0,-37.0,1,One-time
+Sanjana | Madhya Pradesh,Sanjana,Madhya Pradesh,1267.0,390.0,1,One-time
+Rane | Maharashtra,Rane,Maharashtra,105.0,-45.0,1,One-time
+Shikhar | Maharashtra,Shikhar,Maharashtra,700.0,-556.0,1,One-time
+Saurabh | Maharashtra,Saurabh,Maharashtra,57.0,27.0,1,One-time
+Surbhi | Maharashtra,Surbhi,Maharashtra,355.0,-4.0,1,One-time
+Ankit | Maharashtra,Ankit,Maharashtra,112.0,15.0,1,One-time
+Abhijeet | Maharashtra,Abhijeet,Maharashtra,1078.0,130.0,1,One-time
+Nishant | Maharashtra,Nishant,Maharashtra,1136.0,-58.0,1,One-time
+Yash | Maharashtra,Yash,Maharashtra,791.0,-647.0,1,One-time
+Praneet | Maharashtra,Praneet,Maharashtra,743.0,89.0,1,One-time
+Parin | Maharashtra,Parin,Maharashtra,1404.0,-15.0,1,One-time
+Aman | Maharashtra,Aman,Maharashtra,755.0,190.0,1,One-time
+Shubham | Maharashtra,Shubham,Maharashtra,1565.0,526.0,1,One-time
+Utsav | Maharashtra,Utsav,Maharashtra,126.0,52.0,1,One-time
+Ankita | Maharashtra,Ankita,Maharashtra,280.0,43.0,1,One-time
+Ayush | Maharashtra,Ayush,Maharashtra,1052.0,-82.0,1,One-time
+Abhishek | Maharashtra,Abhishek,Maharashtra,74.0,-25.0,1,One-time
+Aayushi | Maharashtra,Aayushi,Maharashtra,335.0,-22.0,1,One-time
+Sanjna | Maharashtra,Sanjna,Maharashtra,826.0,-48.0,1,One-time
+Bhaggyasree | Maharashtra,Bhaggyasree,Maharashtra,715.0,-406.0,1,One-time
+Mohan | Maharashtra,Mohan,Maharashtra,2070.0,-870.0,1,One-time
+Ashvini | Maharashtra,Ashvini,Maharashtra,22.0,11.0,1,One-time
+Dhirajendu | Maharashtra,Dhirajendu,Maharashtra,96.0,-59.0,1,One-time
+Sanjay | Maharashtra,Sanjay,Maharashtra,100.0,12.0,1,One-time
+Palak | Maharashtra,Palak,Maharashtra,263.0,50.0,1,One-time
+Tejeswini | Maharashtra,Tejeswini,Maharashtra,1116.0,-22.0,1,One-time
+Wale | Maharashtra,Wale,Maharashtra,130.0,-97.0,1,One-time
+Samiksha | Maharashtra,Samiksha,Maharashtra,134.0,42.0,1,One-time
+Rohan | Maharashtra,Rohan,Maharashtra,2369.0,380.0,1,One-time
+Rhea | Maharashtra,Rhea,Maharashtra,1421.0,398.0,1,One-time
+Sanjova | Maharashtra,Sanjova,Maharashtra,934.0,-134.0,1,One-time
+Pratiksha | Maharashtra,Pratiksha,Maharashtra,53.0,8.0,1,One-time
+Kiran | Maharashtra,Kiran,Maharashtra,490.0,-128.0,1,One-time
+Hrisheekesh | Maharashtra,Hrisheekesh,Maharashtra,911.0,202.0,1,One-time
+Riya | Maharashtra,Riya,Maharashtra,228.0,-63.0,1,One-time
+Harshita | Maharashtra,Harshita,Maharashtra,504.0,116.0,1,One-time
+Vishakha | Maharashtra,Vishakha,Maharashtra,4836.0,966.0,1,One-time
+Sidharth | Maharashtra,Sidharth,Maharashtra,73.0,-36.0,1,One-time
+Shantanu | Maharashtra,Shantanu,Maharashtra,315.0,77.0,1,One-time
+Ameesha | Maharashtra,Ameesha,Maharashtra,2148.0,-273.0,1,One-time
+Akancha | Maharashtra,Akancha,Maharashtra,806.0,22.0,1,One-time
+Avni | Maharashtra,Avni,Maharashtra,76.0,-50.0,1,One-time
+Anjali | Maharashtra,Anjali,Maharashtra,831.0,146.0,1,One-time
+Mahima | Maharashtra,Mahima,Maharashtra,17.0,-12.0,1,One-time
+Akshat | Maharashtra,Akshat,Maharashtra,31.0,-7.0,1,One-time
+Mrinal | Maharashtra,Mrinal,Maharashtra,1895.0,672.0,1,One-time
+Arti | Maharashtra,Arti,Maharashtra,1298.0,65.0,1,One-time
+Shivam | Maharashtra,Shivam,Maharashtra,87.0,16.0,1,One-time
+Shivani | Maharashtra,Shivani,Maharashtra,8.0,-6.0,1,One-time
+Swapnil | Maharashtra,Swapnil,Maharashtra,3395.0,868.0,1,One-time
+Sukrith | Maharashtra,Sukrith,Maharashtra,1721.0,-566.0,1,One-time
+Divyansha | Maharashtra,Divyansha,Maharashtra,465.0,207.0,1,One-time
+Sabah | Maharashtra,Sabah,Maharashtra,1384.0,-182.0,1,One-time
+Syed | Maharashtra,Syed,Maharashtra,169.0,38.0,1,One-time
+Shubhi | Maharashtra,Shubhi,Maharashtra,180.0,-110.0,1,One-time
+Shreya | Maharashtra,Shreya,Maharashtra,795.0,67.0,1,One-time
+Soumya | Maharashtra,Soumya,Maharashtra,6339.0,669.0,1,One-time
+Ishit | Maharashtra,Ishit,Maharashtra,188.0,-60.0,1,One-time
+Shaily | Maharashtra,Shaily,Maharashtra,1777.0,-370.0,1,One-time
+Shruti | Maharashtra,Shruti,Maharashtra,1569.0,-15.0,1,One-time
+Mukund | Maharashtra,Mukund,Maharashtra,152.0,23.0,1,One-time
+Megha | Maharashtra,Megha,Maharashtra,933.0,-134.0,1,One-time
+Mrunal | Maharashtra,Mrunal,Maharashtra,582.0,117.0,1,One-time
+Mousam | Maharashtra,Mousam,Maharashtra,47.0,-20.0,1,One-time
+Aromal | Maharashtra,Aromal,Maharashtra,166.0,28.0,1,One-time
+Ishpreet | Maharashtra,Ishpreet,Maharashtra,3003.0,243.0,1,One-time
+Tanushree | Maharashtra,Tanushree,Maharashtra,637.0,261.0,1,One-time
+Sumeet | Maharashtra,Sumeet,Maharashtra,24.0,2.0,1,One-time
+Sudhir | Nagaland,Sudhir,Nagaland,1969.0,512.0,1,One-time
+Jaideep | Nagaland,Jaideep,Nagaland,177.0,41.0,1,One-time
+Parakh | Nagaland,Parakh,Nagaland,86.0,9.0,1,One-time
+Mitali | Nagaland,Mitali,Nagaland,832.0,0.0,1,One-time
+Anisha | Nagaland,Anisha,Nagaland,193.0,-17.0,1,One-time
+Harsh | Nagaland,Harsh,Nagaland,35.0,14.0,1,One-time
+Aman | Nagaland,Aman,Nagaland,785.0,-236.0,1,One-time
+Kushal | Nagaland,Kushal,Nagaland,1383.0,343.0,1,One-time
+Rohan | Punjab,Rohan,Punjab,887.0,219.0,1,One-time
+Piyam | Punjab,Piyam,Punjab,193.0,8.0,1,One-time
+Ayush | Punjab,Ayush,Punjab,1359.0,-111.0,1,One-time
+Monu | Punjab,Monu,Punjab,1246.0,62.0,1,One-time
+Nikhil | Punjab,Nikhil,Punjab,61.0,25.0,1,One-time
+Masurkar | Punjab,Masurkar,Punjab,121.0,19.0,1,One-time
+Bhosale | Punjab,Bhosale,Punjab,282.0,14.0,1,One-time
+Nikita | Punjab,Nikita,Punjab,902.0,141.0,1,One-time
+Nripraj | Punjab,Nripraj,Punjab,1619.0,339.0,1,One-time
+Monica | Punjab,Monica,Punjab,1397.0,173.0,1,One-time
+Anand | Punjab,Anand,Punjab,365.0,132.0,1,One-time
+Namrata | Punjab,Namrata,Punjab,30.0,-35.0,1,One-time
+Sandra | Punjab,Sandra,Punjab,325.0,-67.0,1,One-time
+Snehal | Punjab,Snehal,Punjab,38.0,-6.0,1,One-time
+Paromita | Punjab,Paromita,Punjab,811.0,154.0,1,One-time
+Tanvi | Punjab,Tanvi,Punjab,934.0,-916.0,1,One-time
+Sukruta | Punjab,Sukruta,Punjab,277.0,3.0,1,One-time
+Soodesh | Punjab,Soodesh,Punjab,94.0,7.0,1,One-time
+Surabhi | Rajasthan,Surabhi,Rajasthan,220.0,-19.0,1,One-time
+Aditi | Rajasthan,Aditi,Rajasthan,139.0,30.0,1,One-time
+Soumya | Rajasthan,Soumya,Rajasthan,510.0,234.0,1,One-time
+Gaurav | Rajasthan,Gaurav,Rajasthan,141.0,41.0,1,One-time
+Nandita | Rajasthan,Nandita,Rajasthan,309.0,117.0,1,One-time
+Apoorv | Rajasthan,Apoorv,Rajasthan,108.0,37.0,1,One-time
+Anmol | Rajasthan,Anmol,Rajasthan,50.0,-28.0,1,One-time
+Nitant | Rajasthan,Nitant,Rajasthan,420.0,46.0,1,One-time
+Chandni | Rajasthan,Chandni,Rajasthan,2390.0,-304.0,1,One-time
+Brijesh | Rajasthan,Brijesh,Rajasthan,761.0,139.0,1,One-time
+Dheeraj | Rajasthan,Dheeraj,Rajasthan,119.0,1.0,1,One-time
+Rishabh | Rajasthan,Rishabh,Rajasthan,2002.0,-685.0,1,One-time
+Megha | Rajasthan,Megha,Rajasthan,124.0,54.0,1,One-time
+Subhasmita | Rajasthan,Subhasmita,Rajasthan,167.0,43.0,1,One-time
+Rohit | Rajasthan,Rohit,Rajasthan,15.0,4.0,1,One-time
+Jesslyn | Rajasthan,Jesslyn,Rajasthan,115.0,47.0,1,One-time
+Neha | Rajasthan,Neha,Rajasthan,3350.0,501.0,1,One-time
+Adhvaita | Rajasthan,Adhvaita,Rajasthan,193.0,-275.0,1,One-time
+Manisha | Rajasthan,Manisha,Rajasthan,662.0,240.0,1,One-time
+Abhishek | Rajasthan,Abhishek,Rajasthan,2866.0,394.0,1,One-time
+Piyali | Sikkim,Piyali,Sikkim,610.0,-66.0,1,One-time
+Soumya | Sikkim,Soumya,Sikkim,20.0,-9.0,1,One-time
+Mahima | Sikkim,Mahima,Sikkim,693.0,254.0,1,One-time
+Ankit | Sikkim,Ankit,Sikkim,434.0,52.0,1,One-time
+K | Sikkim,K,Sikkim,336.0,123.0,1,One-time
+Vineet | Sikkim,Vineet,Sikkim,666.0,92.0,1,One-time
+Sukant | Sikkim,Sukant,Sikkim,276.0,-21.0,1,One-time
+Kalyani | Tamil Nadu,Kalyani,Tamil Nadu,295.0,78.0,1,One-time
+Amisha | Tamil Nadu,Amisha,Tamil Nadu,909.0,-652.0,1,One-time
+Dinesh | Tamil Nadu,Dinesh,Tamil Nadu,12.0,3.0,1,One-time
+Surabhi | Tamil Nadu,Surabhi,Tamil Nadu,58.0,0.0,1,One-time
+Akshay | Tamil Nadu,Akshay,Tamil Nadu,112.0,24.0,1,One-time
+Arindam | Uttar Pradesh,Arindam,Uttar Pradesh,34.0,-10.0,1,One-time
+Akshay | Uttar Pradesh,Akshay,Uttar Pradesh,410.0,-99.0,1,One-time
+Vipul | Uttar Pradesh,Vipul,Uttar Pradesh,16.0,6.0,1,One-time
+Vedant | Uttar Pradesh,Vedant,Uttar Pradesh,2208.0,240.0,1,One-time
+Aishwarya | Uttar Pradesh,Aishwarya,Uttar Pradesh,939.0,41.0,1,One-time
+Aayush | Uttar Pradesh,Aayush,Uttar Pradesh,556.0,-38.0,1,One-time
+Seema | Uttar Pradesh,Seema,Uttar Pradesh,5228.0,1970.0,1,One-time
+Pooja | Uttar Pradesh,Pooja,Uttar Pradesh,5809.0,400.0,1,One-time
+Priyanka | Uttar Pradesh,Priyanka,Uttar Pradesh,29.0,2.0,1,One-time
+Jayanti | Uttar Pradesh,Jayanti,Uttar Pradesh,100.0,7.0,1,One-time
+Shreya | Uttar Pradesh,Shreya,Uttar Pradesh,200.0,7.0,1,One-time
+Manshul | Uttar Pradesh,Manshul,Uttar Pradesh,844.0,193.0,1,One-time
+Vaibhavi | Uttar Pradesh,Vaibhavi,Uttar Pradesh,148.0,59.0,1,One-time
+Aashna | Uttar Pradesh,Aashna,Uttar Pradesh,1931.0,376.0,1,One-time
+Divyeshkumar | Uttar Pradesh,Divyeshkumar,Uttar Pradesh,248.0,8.0,1,One-time
+Kritika | Uttar Pradesh,Kritika,Uttar Pradesh,124.0,-71.0,1,One-time
+Shivam | Uttar Pradesh,Shivam,Uttar Pradesh,1500.0,-235.0,1,One-time
+Aparajita | West Bengal,Aparajita,West Bengal,465.0,57.0,1,One-time
+Ashmeet | West Bengal,Ashmeet,West Bengal,459.0,-121.0,1,One-time
+Akash | West Bengal,Akash,West Bengal,131.0,-154.0,1,One-time
+Ajay | West Bengal,Ajay,West Bengal,202.0,21.0,1,One-time
+Jesal | West Bengal,Jesal,West Bengal,1782.0,516.0,1,One-time
+Ayush | West Bengal,Ayush,West Bengal,858.0,121.0,1,One-time
+Pranjali | West Bengal,Pranjali,West Bengal,1250.0,486.0,1,One-time
+Saloni | West Bengal,Saloni,West Bengal,17.0,7.0,1,One-time
+Suhani | West Bengal,Suhani,West Bengal,171.0,14.0,1,One-time
+Ekta | West Bengal,Ekta,West Bengal,20.0,-2.0,1,One-time
+Raksha | West Bengal,Raksha,West Bengal,158.0,-63.0,1,One-time
+Parnavi | West Bengal,Parnavi,West Bengal,87.0,10.0,1,One-time
+Sonal | Bihar,Sonal,Bihar,1790.0,217.0,2,Repeat (approx.)
+Pooja | Bihar,Pooja,Bihar,357.0,96.0,2,Repeat (approx.)
+Kajal | Delhi,Kajal,Delhi,889.0,262.0,2,Repeat (approx.)
+Tushina | Goa,Tushina,Goa,600.0,-383.0,2,Repeat (approx.)
+Sanjay | Goa,Sanjay,Goa,417.0,-73.0,2,Repeat (approx.)
+Ritu | Haryana,Ritu,Haryana,265.0,-117.0,2,Repeat (approx.)
+Rachna | Haryana,Rachna,Haryana,47.0,-19.0,2,Repeat (approx.)
+Manish | Himachal Pradesh,Manish,Himachal Pradesh,55.0,13.0,2,Repeat (approx.)
+Subhashree | Jammu and Kashmir,Subhashree,Jammu and Kashmir,529.0,-272.0,2,Repeat (approx.)
+Kirti | Jammu and Kashmir,Kirti,Jammu and Kashmir,3216.0,281.0,2,Repeat (approx.)
+Ajay | Karnataka,Ajay,Karnataka,1720.0,271.0,2,Repeat (approx.)
+Shruti | Karnataka,Shruti,Karnataka,970.0,232.0,2,Repeat (approx.)
+Sharda | Kerala,Sharda,Kerala,1715.0,398.0,2,Repeat (approx.)
+Hemant | Kerala,Hemant,Kerala,1643.0,455.0,2,Repeat (approx.)
+Shreya | Kerala,Shreya,Kerala,1857.0,-181.0,2,Repeat (approx.)
+Yaanvi | Madhya Pradesh,Yaanvi,Madhya Pradesh,9177.0,488.0,2,Repeat (approx.)
+Pournamasi | Madhya Pradesh,Pournamasi,Madhya Pradesh,2286.0,1027.0,2,Repeat (approx.)
+Siddharth | Madhya Pradesh,Siddharth,Madhya Pradesh,1921.0,-184.0,2,Repeat (approx.)
+Lisha | Madhya Pradesh,Lisha,Madhya Pradesh,1729.0,-125.0,2,Repeat (approx.)
+Shivangi | Madhya Pradesh,Shivangi,Madhya Pradesh,1130.0,102.0,2,Repeat (approx.)
+Sakshi | Madhya Pradesh,Sakshi,Madhya Pradesh,1171.0,-10.0,2,Repeat (approx.)
+Ashmi | Madhya Pradesh,Ashmi,Madhya Pradesh,172.0,26.0,2,Repeat (approx.)
+Rashmi | Madhya Pradesh,Rashmi,Madhya Pradesh,170.0,38.0,2,Repeat (approx.)
+Nida | Madhya Pradesh,Nida,Madhya Pradesh,1201.0,-470.0,2,Repeat (approx.)
+Tulika | Madhya Pradesh,Tulika,Madhya Pradesh,4668.0,-77.0,2,Repeat (approx.)
+Anurag | Madhya Pradesh,Anurag,Madhya Pradesh,4259.0,150.0,2,Repeat (approx.)
+Mayank | Maharashtra,Mayank,Maharashtra,1629.0,310.0,2,Repeat (approx.)
+Parth | Maharashtra,Parth,Maharashtra,5161.0,534.0,2,Repeat (approx.)
+Priyanka | Maharashtra,Priyanka,Maharashtra,3981.0,1043.0,2,Repeat (approx.)
+Nishi | Maharashtra,Nishi,Maharashtra,669.0,116.0,2,Repeat (approx.)
+Surabhi | Maharashtra,Surabhi,Maharashtra,6611.0,431.0,2,Repeat (approx.)
+Chirag | Maharashtra,Chirag,Maharashtra,3192.0,-731.0,2,Repeat (approx.)
+Sweta | Maharashtra,Sweta,Maharashtra,808.0,-56.0,2,Repeat (approx.)
+Nidhi | Nagaland,Nidhi,Nagaland,1329.0,205.0,2,Repeat (approx.)
+Farah | Nagaland,Farah,Nagaland,4675.0,-483.0,2,Repeat (approx.)
+Sahil | Punjab,Sahil,Punjab,1490.0,-85.0,2,Repeat (approx.)
+Aditya | Punjab,Aditya,Punjab,527.0,20.0,2,Repeat (approx.)
+Shweta | Rajasthan,Shweta,Rajasthan,2247.0,321.0,2,Repeat (approx.)
+Shefali | Rajasthan,Shefali,Rajasthan,220.0,42.0,2,Repeat (approx.)
+Paridhi | Rajasthan,Paridhi,Rajasthan,2466.0,92.0,2,Repeat (approx.)
+Amit | Sikkim,Amit,Sikkim,1934.0,-74.0,2,Repeat (approx.)
+Komal | Uttar Pradesh,Komal,Uttar Pradesh,845.0,177.0,2,Repeat (approx.)
+Parishi | West Bengal,Parishi,West Bengal,4741.0,900.0,2,Repeat (approx.)
+Sanskriti | West Bengal,Sanskriti,West Bengal,203.0,90.0,2,Repeat (approx.)
+Manju | Andhra Pradesh,Manju,Andhra Pradesh,2084.0,799.0,3,Repeat (approx.)
+Yogesh | Bihar,Yogesh,Bihar,2834.0,-594.0,3,Repeat (approx.)
+Kanak | Goa,Kanak,Goa,699.0,72.0,3,Repeat (approx.)
+Bharat | Gujarat,Bharat,Gujarat,1579.0,-1153.0,3,Repeat (approx.)
+Ramesh | Gujarat,Ramesh,Gujarat,471.0,114.0,3,Repeat (approx.)
+Mukesh | Haryana,Mukesh,Haryana,3704.0,610.0,3,Repeat (approx.)
+Vandana | Himachal Pradesh,Vandana,Himachal Pradesh,1456.0,179.0,3,Repeat (approx.)
+Sonakshi | Jammu and Kashmir,Sonakshi,Jammu and Kashmir,237.0,57.0,3,Repeat (approx.)
+Pinky | Jammu and Kashmir,Pinky,Jammu and Kashmir,3160.0,345.0,3,Repeat (approx.)
+Vini | Karnataka,Vini,Karnataka,2139.0,-309.0,3,Repeat (approx.)
+Hazel | Karnataka,Hazel,Karnataka,944.0,68.0,3,Repeat (approx.)
+Anita | Kerala,Anita,Kerala,561.0,-54.0,3,Repeat (approx.)
+Hitika | Madhya Pradesh,Hitika,Madhya Pradesh,1160.0,285.0,3,Repeat (approx.)
+Jahan | Madhya Pradesh,Jahan,Madhya Pradesh,2807.0,105.0,3,Repeat (approx.)
+Deepak | Madhya Pradesh,Deepak,Madhya Pradesh,1013.0,97.0,3,Repeat (approx.)
+Pearl | Maharashtra,Pearl,Maharashtra,3944.0,995.0,3,Repeat (approx.)
+Sarita | Maharashtra,Sarita,Maharashtra,5449.0,1265.0,3,Repeat (approx.)
+Bhishm | Maharashtra,Bhishm,Maharashtra,4907.0,613.0,3,Repeat (approx.)
+Sagar | Nagaland,Sagar,Nagaland,439.0,-240.0,3,Repeat (approx.)
+Shrichand | Punjab,Shrichand,Punjab,3828.0,-705.0,3,Repeat (approx.)
+Monisha | Rajasthan,Monisha,Rajasthan,587.0,16.0,3,Repeat (approx.)
+Divsha | Rajasthan,Divsha,Rajasthan,968.0,169.0,3,Repeat (approx.)
+Bhavna | Sikkim,Bhavna,Sikkim,307.0,50.0,3,Repeat (approx.)
+Aarushi | Tamil Nadu,Aarushi,Tamil Nadu,4701.0,-1669.0,3,Repeat (approx.)
+Jitesh | Uttar Pradesh,Jitesh,Uttar Pradesh,1190.0,204.0,3,Repeat (approx.)
+Atharv | West Bengal,Atharv,West Bengal,2584.0,361.0,3,Repeat (approx.)
+Kasheen | West Bengal,Kasheen,West Bengal,958.0,257.0,3,Repeat (approx.)
+Sheetal | Madhya Pradesh,Sheetal,Madhya Pradesh,2756.0,452.0,4,Repeat (approx.)

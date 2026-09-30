@@ -1,0 +1,18 @@
+category,sub_category,revenue,profit,units,line_items,loss_lines
+Clothing,Skirt,1946.0,235.0,248,64,18
+Clothing,Stole,18546.0,2559.0,671,192,52
+Clothing,Shirt,7555.0,1131.0,271,69,12
+Clothing,Saree,53511.0,352.0,782,210,98
+Clothing,Trousers,30039.0,2847.0,135,39,15
+Clothing,Hankerchief,14608.0,2098.0,754,198,42
+Clothing,Kurti,3361.0,181.0,164,47,14
+Clothing,Leggings,2106.0,260.0,186,53,16
+Clothing,T-shirt,7382.0,1500.0,305,77,12
+Electronics,Accessories,21728.0,3559.0,262,72,16
+Electronics,Phones,46119.0,2207.0,304,83,41
+Electronics,Printers,58252.0,5964.0,291,74,25
+Electronics,Electronic Games,39168.0,-1236.0,297,79,40
+Furniture,Furnishings,13484.0,844.0,310,73,30
+Furniture,Tables,22614.0,-4011.0,61,17,11
+Furniture,Bookcases,56861.0,4888.0,297,79,22
+Furniture,Chairs,34222.0,577.0,277,74,39
