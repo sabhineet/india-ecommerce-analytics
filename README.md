@@ -132,10 +132,11 @@ I'd rather say these upfront than have someone find them later.
 
 ## Data source
 
-Indian E-Commerce dataset from Kaggle (CC0 licence): List of Orders, Order Details and Sales Target.
-<!-- Add the Kaggle link here. -->
+Indian E-Commerce dataset on Kaggle ([benroshan/ecommerce-data](https://www.kaggle.com/datasets/benroshan/ecommerce-data)), CC0 licence. It has three files: List of Orders, Order Details and Sales Target. It was uploaded to Kaggle by benroshan, and the original author isn't stated.
 
 ## About
 
-Built by Abhineet as a portfolio project.
-<!-- Add your LinkedIn link here if you want one. -->
+Built by Abhineet Srivastava as a portfolio project.
+
+- LinkedIn: [abhineet-srivastava-](https://www.linkedin.com/in/abhineet-srivastava-/)
+- Kaggle: [abhineetsrivastavaa](https://www.kaggle.com/abhineetsrivastavaa)
