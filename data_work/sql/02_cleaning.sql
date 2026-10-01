@@ -1,24 +1,33 @@
 -- =====================================================================
 -- 02_cleaning.sql
--- Project : India E-Commerce Sales & Profitability Analytics
--- Purpose : Build the CLEAN layer as VIEWS on top of the raw tables.
---           Raw tables are never modified; cleaning logic stays visible
---           and re-runnable.
--- Layers  : raw_*  ->  clean_*  ->  clean_sales_lines (analysis base)
--- Run each CREATE statement separately, in this order.
+-- India E-Commerce Sales & Profitability Analytics
+--
+-- This builds the clean layer. I used views instead of rewriting the
+-- raw tables, so the originals are never touched and every cleaning
+-- step stays visible and easy to re-run.
+--
+-- Layers: raw_*  ->  clean_*  ->  clean_sales_lines (the base for all analysis)
+-- Run each CREATE statement on its own, in the order below.
 -- =====================================================================
 
 
 -- ---------------------------------------------------------------------
--- View 1: clean_orders   (grain: one row per order, 500 rows)
--- Fixes  : removes the 60 blank rows; TRIMs text; converts the date text
---          (DD-MM-YYYY) to a real DATE; corrects state to 'Delhi' where
---          city = 'Delhi'; adds an audit flag and a derived customer key.
--- Notes  : - state_was_corrected keeps a trail of the 3 Delhi fixes
---          - customer_key = name + state is a DERIVED PROXY. The dataset has
---            no customer ID, and some names appear in several states.
---          - Chandigarh appears under both Punjab and Haryana in the source.
---            It is retained as-is and flagged in the README.
+-- View 1: clean_orders   (one row per order, 500 rows)
+--
+-- What it fixes:
+--   - drops the 60 blank rows
+--   - trims stray spaces (the "Kerala " problem)
+--   - turns the DD-MM-YYYY text into a real DATE
+--   - sets state to Delhi when the city is Delhi (3 orders were labelled
+--     Madhya Pradesh)
+--
+-- Two things worth knowing:
+--   - state_was_corrected keeps a trail of those 3 Delhi fixes.
+--   - There is no customer ID in this dataset, so customer_key is
+--     name + state. It's a proxy, not a real ID, and some names show up
+--     in more than one state. Anything built on it is approximate.
+--   - Chandigarh appears under both Punjab and Haryana in the source.
+--     I left it as it is and noted it in the README.
 -- ---------------------------------------------------------------------
 CREATE OR REPLACE VIEW `india-ecommerce-analytics.ecommerce.clean_orders` AS
 WITH base AS (
@@ -50,11 +59,13 @@ FROM fixed;
 
 
 -- ---------------------------------------------------------------------
--- View 2: clean_order_details   (grain: one row per order line, 1500 rows)
--- Fixes  : converts text to numbers with SAFE_CAST; TRIMs text.
--- Notes  : negative profits are RETAINED on purpose (business signal).
---          There is no line-item ID in the source, so lines cannot be
---          uniquely identified beyond order_id + values.
+-- View 2: clean_order_details   (one row per order line, 1500 rows)
+--
+-- Text becomes numbers using SAFE_CAST, and text columns get trimmed.
+-- Negative profits stay in on purpose, since losing money on a line is
+-- exactly what I'm trying to find.
+-- The source has no line-item ID, so a line can't be uniquely identified
+-- beyond order_id plus its values.
 -- ---------------------------------------------------------------------
 CREATE OR REPLACE VIEW `india-ecommerce-analytics.ecommerce.clean_order_details` AS
 SELECT
@@ -68,8 +79,10 @@ FROM `india-ecommerce-analytics.ecommerce.raw_order_details`;
 
 
 -- ---------------------------------------------------------------------
--- View 3: clean_sales_target   (grain: one row per month x category, 36 rows)
--- Fixes  : 'Apr-18' text -> DATE 2018-04-01 so it can join to order_month.
+-- View 3: clean_sales_target   (one row per month x category, 36 rows)
+--
+-- 'Apr-18' is text. I convert it to a DATE (2018-04-01) so it can be
+-- joined to order_month later.
 -- ---------------------------------------------------------------------
 CREATE OR REPLACE VIEW `india-ecommerce-analytics.ecommerce.clean_sales_target` AS
 SELECT
@@ -80,13 +93,15 @@ FROM `india-ecommerce-analytics.ecommerce.raw_sales_target`;
 
 
 -- ---------------------------------------------------------------------
--- View 4: clean_sales_lines   (ANALYSIS BASE; grain: one row per order line)
--- Why the join is safe: one order has many lines, but each line matches
---   exactly ONE order. Joining from the "many" side (details) to the "one"
---   side (orders) cannot multiply rows.
--- Counting rules for anything built on this view:
+-- View 4: clean_sales_lines   (the analysis base, one row per order line)
+--
+-- Why this join is safe: one order has many lines, but each line belongs
+-- to exactly one order. Joining from the "many" side (details) to the
+-- "one" side (orders) can't multiply rows.
+--
+-- Two counting rules I follow in everything built on this view:
 --   revenue = SUM(amount)              (never COUNT)
---   orders  = COUNT(DISTINCT order_id) (never COUNT(*) - that counts lines)
+--   orders  = COUNT(DISTINCT order_id) (never COUNT(*), that counts lines)
 -- ---------------------------------------------------------------------
 CREATE OR REPLACE VIEW `india-ecommerce-analytics.ecommerce.clean_sales_lines` AS
 SELECT
@@ -108,13 +123,15 @@ JOIN `india-ecommerce-analytics.ecommerce.clean_orders` o
 
 
 -- ---------------------------------------------------------------------
--- VALIDATION of the clean layer (run after creating all four views)
+-- Validation of the clean layer (run after creating all four views)
+--
+-- If total_amount matches the raw total, the join lost nothing and
+-- duplicated nothing.
 -- Expected:
 --   orders = 500              states = 19            corrected_states = 3
 --   customer_keys = 399       line_rows = 1500       distinct_orders = 500
 --   total_amount = 431502     total_profit = 23955   total_qty = 5615
 --   negative_profit_lines = 503   min_profit = -1981   max_profit = 1698
--- If total_amount matches the raw total, the join lost or duplicated nothing.
 -- ---------------------------------------------------------------------
 SELECT
   (SELECT COUNT(*) FROM `india-ecommerce-analytics.ecommerce.clean_orders`) AS orders,

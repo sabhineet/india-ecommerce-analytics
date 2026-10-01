@@ -1,21 +1,31 @@
 -- =====================================================================
 -- 01_data_quality.sql
--- Project : India E-Commerce Sales & Profitability Analytics
--- Purpose : Read-only checks on the RAW tables. Nothing is changed.
--- Tables  : raw_orders, raw_order_details, raw_sales_target
---           (all columns loaded as STRING on purpose; typed later in 02_cleaning.sql)
--- Project ID used below: india-ecommerce-analytics  (dataset: ecommerce)
--- Run each query separately and compare with the "Expected" line.
+-- India E-Commerce Sales & Profitability Analytics
+--
+-- Before building anything, I wanted to know how messy the raw data was.
+-- Everything in this file is read-only. It looks at the three raw tables
+-- and changes nothing.
+--
+-- Tables : raw_orders, raw_order_details, raw_sales_target
+--          I loaded every column as STRING on purpose, so BigQuery
+--          couldn't guess types and quietly hide problems. The proper
+--          typing happens later in 02_cleaning.sql.
+-- Project: india-ecommerce-analytics   Dataset: ecommerce
+--
+-- How I used it: ran each query on its own and compared the result with
+-- the "Expected" line above it.
 -- =====================================================================
 
 
 -- ---------------------------------------------------------------------
--- Q1: How many real orders do we have?
--- Why: the orders file has blank rows. NULLIF(TRIM(x), '') turns empty AND
---      whitespace-only values into NULL, so one test catches both.
---      COUNT(DISTINCT ...) ignores NULLs, so blanks are not counted as an order.
+-- Q1: How many real orders are there?
+-- The orders file has blank rows at the bottom. NULLIF(TRIM(x), '')
+-- turns both empty and whitespace-only values into NULL, so one test
+-- catches both. COUNT(DISTINCT ...) skips NULLs, so blanks don't get
+-- counted as an order.
 -- Expected: total_rows = 560, blank_rows = 60, distinct_order_ids = 500
--- Meaning : 500 real orders, no duplicate order IDs -> order_id can be the key.
+-- So: 500 real orders and no duplicate IDs, which means order_id can be
+-- treated as the key.
 -- ---------------------------------------------------------------------
 SELECT
   COUNT(*) AS total_rows,
@@ -25,9 +35,10 @@ FROM `india-ecommerce-analytics.ecommerce.raw_orders`;
 
 
 -- ---------------------------------------------------------------------
--- Q2: Do the orders table and the order-details table match up?
--- Why: a LEFT JOIN ... WHERE right_side IS NULL finds rows with NO match
---      (an "anti-join"). Orphan rows would silently drop revenue in joins.
+-- Q2: Do the orders table and the order-details table line up?
+-- If a detail row has no matching order (or the other way round), a join
+-- would silently drop revenue. A LEFT JOIN with "right side IS NULL"
+-- finds rows that have no match (an anti-join).
 -- Expected: details_without_order = 0, orders_without_details = 0
 -- ---------------------------------------------------------------------
 SELECT
@@ -46,11 +57,12 @@ SELECT
 
 
 -- ---------------------------------------------------------------------
--- Q3: Hidden whitespace in State
--- Why: compare LENGTH(state) with LENGTH(TRIM(state)); a difference means
---      leading/trailing spaces. Such values break joins and lookups.
+-- Q3: Hidden spaces in State
+-- If LENGTH(state) is bigger than LENGTH(TRIM(state)), there's a stray
+-- space at the start or end. These break joins and group-bys without
+-- looking wrong on screen.
 -- Expected: 19 rows. Kerala shows len = 7 vs trimmed_len = 6 (n = 16).
--- Action  : correct with TRIM in 02_cleaning.sql
+-- Fix: TRIM in 02_cleaning.sql
 -- ---------------------------------------------------------------------
 SELECT
   state,
@@ -64,11 +76,12 @@ ORDER BY state;
 
 
 -- ---------------------------------------------------------------------
--- Q4: Orders whose city is Delhi but whose state is not Delhi
--- Why: a city/state contradiction means a labelling error in the source.
--- Expected: 3 rows -> B-25905 Bhargav, B-25909 Sujay, B-25913 Geetanjali
---           (all with state "Madhya Pradesh")
--- Action  : correct state to Delhi in the clean layer and keep an audit flag
+-- Q4: Orders where the city is Delhi but the state isn't
+-- A city that contradicts its state is a labelling mistake in the source.
+-- Expected: 3 rows -> B-25905 Bhargav, B-25909 Sujay, B-25913 Geetanjali,
+-- all labelled "Madhya Pradesh".
+-- Fix: set state to Delhi in the clean layer, and keep a flag so the
+-- correction can be traced.
 -- ---------------------------------------------------------------------
 SELECT order_id, customer_name, state, city
 FROM `india-ecommerce-analytics.ecommerce.raw_orders`
@@ -77,15 +90,15 @@ WHERE city = 'Delhi'
 
 
 -- ---------------------------------------------------------------------
--- Q5: Are the numeric fields sane?
--- Why: SAFE_CAST returns NULL instead of an error when text cannot be
---      converted, so the bad_* counts reveal hidden bad values.
+-- Q5: Are the numbers sane?
+-- SAFE_CAST gives NULL instead of an error when text can't be converted,
+-- so the bad_* counts show any hidden bad values.
 -- Expected: n = 1500; bad_amount / bad_profit / bad_qty = 0;
 --           nonpositive_amount / nonpositive_qty = 0;
 --           negative_profit_lines = 503; min_profit = -1981;
 --           max_profit = 1698; max_amount = 5729
--- Note    : negative profit lines are RETAINED - they are a business signal,
---           not a data error.
+-- I'm keeping the 503 negative-profit lines. They aren't errors, they
+-- are part of the business story.
 -- ---------------------------------------------------------------------
 SELECT
   COUNT(*) AS n,
@@ -103,11 +116,13 @@ FROM `india-ecommerce-analytics.ecommerce.raw_order_details`;
 
 -- ---------------------------------------------------------------------
 -- Q6: Do the dates parse?
--- Why: order_date is text in DD-MM-YYYY and the target month is text like
---      'Apr-18'. SAFE.PARSE_DATE returns NULL if a value does not match the
---      format, so unparsed > 0 would mean bad dates.
--- Expected: orders.order_date      -> 500 non-blank, 0 unparsed, 2018-04-01 to 2019-03-31
---           target.month_label     -> 36, 0 unparsed, 2018-04-01 to 2019-03-01
+-- order_date is text like DD-MM-YYYY, and the target month is text like
+-- 'Apr-18'. SAFE.PARSE_DATE returns NULL when a value doesn't match the
+-- format, so unparsed > 0 would mean bad dates.
+-- Expected: orders.order_date  -> 500 non-blank, 0 unparsed,
+--                                 2018-04-01 to 2019-03-31
+--           target.month_label -> 36, 0 unparsed,
+--                                 2018-04-01 to 2019-03-01
 -- ---------------------------------------------------------------------
 SELECT
   'orders.order_date' AS field,

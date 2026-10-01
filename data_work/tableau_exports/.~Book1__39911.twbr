@@ -1558,115 +1558,20 @@
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
           <zone h='97786' id='62' param='horz' type-v2='layout-flow' w='98730' x='635' y='1107'>
-            <zone h='97786' id='59' param='horz' type-v2='layout-flow' w='98730' x='635' y='1107'>
-              <zone h='97786' id='56' param='horz' type-v2='layout-flow' w='98730' x='635' y='1107'>
-                <zone h='97786' id='54' type-v2='layout-basic' w='98730' x='635' y='1107'>
-                  <zone h='91833' id='18' param='horz' type-v2='layout-flow' w='98730' x='635' y='1107'>
-                    <zone h='91833' id='14' param='vert' type-v2='layout-flow' w='98730' x='635' y='1107'>
-                      <zone h='5810' id='15' type-v2='title' w='98730' x='635' y='1107'>
-                        <zone-style>
-                          <format attr='border-color' value='#000000' />
-                          <format attr='border-style' value='none' />
-                          <format attr='border-width' value='0' />
-                          <format attr='margin' value='4' />
-                        </zone-style>
-                      </zone>
-                      <zone h='3320' id='21' type-v2='text' w='98730' x='635' y='6917'>
-                        <formatted-text>
-                          <run fontcolor='#000000' fontname='Benton Sans Book'>Revenue of ₹431,502 produced only ₹23,955 profit (5.6% margin). Furniture is 29% of revenue but only 10% of profit, and every month from April to September 2018 lost money.</run>
-                        </formatted-text>
-                        <zone-style>
-                          <format attr='border-color' value='#000000' />
-                          <format attr='border-style' value='none' />
-                          <format attr='border-width' value='0' />
-                          <format attr='margin' value='4' />
-                        </zone-style>
-                      </zone>
-                      <zone h='14108' id='12' param='horz' type-v2='layout-flow' w='98730' x='635' y='10237'>
-                        <zone fixed-size='1584' h='14108' id='3' is-fixed='true' param='horz' type-v2='layout-flow' w='98730' x='635' y='10237'>
-                          <zone fixed-size='246' h='14108' id='6' is-fixed='true' name='KPI Revenue' w='20122' x='635' y='10237'>
-                            <layout-cache fixed-size-h='94' type-h='fixed' type-w='fixed' />
-                            <zone-style>
-                              <format attr='border-color' value='#000000' />
-                              <format attr='border-style' value='none' />
-                              <format attr='border-width' value='0' />
-                              <format attr='margin' value='4' />
-                            </zone-style>
-                          </zone>
-                          <zone fixed-size='238' h='14108' id='5' is-fixed='true' name='KPI Profit' w='19539' x='20757' y='10237'>
-                            <layout-cache fixed-size-h='94' type-h='fixed' type-w='fixed' />
-                            <zone-style>
-                              <format attr='border-color' value='#000000' />
-                              <format attr='border-style' value='none' />
-                              <format attr='border-width' value='0' />
-                              <format attr='margin' value='4' />
-                            </zone-style>
-                          </zone>
-                          <zone fixed-size='250' h='14108' id='7' is-fixed='true' name='KPI Margin' w='20122' x='40296' y='10237'>
-                            <layout-cache fixed-size-h='93' type-h='fixed' type-w='fixed' />
-                            <zone-style>
-                              <format attr='border-color' value='#000000' />
-                              <format attr='border-style' value='none' />
-                              <format attr='border-width' value='0' />
-                              <format attr='margin' value='4' />
-                            </zone-style>
-                          </zone>
-                          <zone fixed-size='229' h='14108' id='8' is-fixed='true' name='KPI Units' w='18824' x='60418' y='10237'>
-                            <layout-cache fixed-size-h='94' type-h='fixed' type-w='fixed' />
-                            <zone-style>
-                              <format attr='border-color' value='#000000' />
-                              <format attr='border-style' value='none' />
-                              <format attr='border-width' value='0' />
-                              <format attr='margin' value='4' />
-                            </zone-style>
-                          </zone>
-                          <zone fixed-size='400' h='14108' id='9' is-fixed='true' name='KPI Orders' w='20123' x='79242' y='10237'>
-                            <layout-cache fixed-size-h='84' type-h='fixed' type-w='fixed' />
-                            <zone-style>
-                              <format attr='border-color' value='#000000' />
-                              <format attr='border-style' value='none' />
-                              <format attr='border-width' value='0' />
-                              <format attr='margin' value='4' />
-                            </zone-style>
-                          </zone>
-                        </zone>
-                      </zone>
-                      <zone h='68595' id='37' param='horz' type-v2='layout-flow' w='98730' x='635' y='24345'>
-                        <zone h='68595' id='16' name='Monthly Trend' w='44559' x='635' y='24345'>
-                          <layout-cache minheight='299' minwidth='161' type-h='scalable' type-w='scalable' />
-                          <zone-style>
-                            <format attr='border-color' value='#000000' />
-                            <format attr='border-style' value='none' />
-                            <format attr='border-width' value='0' />
-                            <format attr='margin' value='4' />
-                          </zone-style>
-                        </zone>
-                        <zone h='68595' id='52' param='vert' type-v2='layout-flow' w='54170' x='45194' y='24345'>
-                          <zone fixed-size='237' h='33887' id='20' is-fixed='true' name='Category Profit' w='54170' x='45194' y='24345'>
-                            <layout-cache minwidth='282' type-h='fixed' type-w='scalable' />
-                            <zone-style>
-                              <format attr='border-color' value='#000000' />
-                              <format attr='border-style' value='none' />
-                              <format attr='border-width' value='0' />
-                              <format attr='margin' value='4' />
-                            </zone-style>
-                          </zone>
-                          <zone h='25727' id='60' name='Target Attainment' w='54170' x='45194' y='58232'>
-                            <layout-cache fixed-size-h='178' minwidth='180' type-h='fixed' type-w='scalable' />
-                            <zone-style>
-                              <format attr='border-color' value='#000000' />
-                              <format attr='border-style' value='none' />
-                              <format attr='border-width' value='0' />
-                              <format attr='margin' value='4' />
-                            </zone-style>
-                          </zone>
-                        </zone>
-                      </zone>
-                    </zone>
+            <zone h='97786' id='54' type-v2='layout-basic' w='98730' x='635' y='1107'>
+              <zone h='91833' id='18' param='horz' type-v2='layout-flow' w='98730' x='635' y='1107'>
+                <zone h='91833' id='14' param='vert' type-v2='layout-flow' w='98730' x='635' y='1107'>
+                  <zone h='5810' id='15' type-v2='title' w='98730' x='635' y='1107'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
                   </zone>
-                  <zone h='5953' id='24' type-v2='text' w='98730' x='635' y='92940'>
+                  <zone h='3320' id='21' type-v2='text' w='98730' x='635' y='6917'>
                     <formatted-text>
-                      <run fontcolor='#000000' fontname='Benton Sans Book'>Source: Indian E-Commerce dataset (Kaggle, CC0), Apr 2018 to Mar 2019, 500 orders. Original author unknown, so this is not company data. &quot;Revenue&quot; is the Amount field; the source doesn&apos;t say whether it is before or after discounts or tax. Cleaned and aggregated in BigQuery; totals reconciled with source.</run>
+                      <run fontcolor='#000000' fontname='Benton Sans Book'>Revenue of ₹431,502 produced only ₹23,955 profit (5.6% margin). Furniture is 29% of revenue but only 10% of profit, and every month from April to September 2018 lost money.</run>
                     </formatted-text>
                     <zone-style>
                       <format attr='border-color' value='#000000' />
@@ -1675,7 +1580,98 @@
                       <format attr='margin' value='4' />
                     </zone-style>
                   </zone>
+                  <zone h='14108' id='12' param='horz' type-v2='layout-flow' w='98730' x='635' y='10237'>
+                    <zone fixed-size='1584' h='14108' id='3' is-fixed='true' param='horz' type-v2='layout-flow' w='98730' x='635' y='10237'>
+                      <zone fixed-size='246' h='14108' id='6' is-fixed='true' name='KPI Revenue' w='20122' x='635' y='10237'>
+                        <layout-cache fixed-size-h='94' type-h='fixed' type-w='fixed' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone fixed-size='238' h='14108' id='5' is-fixed='true' name='KPI Profit' w='19539' x='20757' y='10237'>
+                        <layout-cache fixed-size-h='94' type-h='fixed' type-w='fixed' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone fixed-size='250' h='14108' id='7' is-fixed='true' name='KPI Margin' w='20122' x='40296' y='10237'>
+                        <layout-cache fixed-size-h='93' type-h='fixed' type-w='fixed' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone fixed-size='229' h='14108' id='8' is-fixed='true' name='KPI Units' w='18824' x='60418' y='10237'>
+                        <layout-cache fixed-size-h='94' type-h='fixed' type-w='fixed' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone fixed-size='400' h='14108' id='9' is-fixed='true' name='KPI Orders' w='20123' x='79242' y='10237'>
+                        <layout-cache fixed-size-h='84' type-h='fixed' type-w='fixed' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                    </zone>
+                  </zone>
+                  <zone h='68595' id='37' param='horz' type-v2='layout-flow' w='98730' x='635' y='24345'>
+                    <zone h='68595' id='16' name='Monthly Trend' w='44559' x='635' y='24345'>
+                      <layout-cache minheight='299' minwidth='161' type-h='scalable' type-w='scalable' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='68595' id='52' param='vert' type-v2='layout-flow' w='54170' x='45194' y='24345'>
+                      <zone fixed-size='237' h='33887' id='20' is-fixed='true' name='Category Profit' w='54170' x='45194' y='24345'>
+                        <layout-cache minwidth='282' type-h='fixed' type-w='scalable' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone h='25727' id='60' name='Target Attainment' w='54170' x='45194' y='58232'>
+                        <layout-cache fixed-size-h='178' minwidth='180' type-h='fixed' type-w='scalable' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                    </zone>
+                  </zone>
                 </zone>
+              </zone>
+              <zone h='5953' id='24' type-v2='text' w='98730' x='635' y='92940'>
+                <formatted-text>
+                  <run fontcolor='#000000' fontname='Benton Sans Book'>Source: Indian E-Commerce dataset (Kaggle, CC0), Apr 2018 to Mar 2019, 500 orders. Original author unknown, so this is not company data. &quot;Revenue&quot; is the Amount field; the source doesn&apos;t say whether it is before or after discounts or tax. Cleaned and aggregated in BigQuery; totals reconciled with source.</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
               </zone>
             </zone>
           </zone>
@@ -1689,10 +1685,10 @@
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='1350' minheight='1350' sizing-mode='vscroll' />
+          <size maxheight='1550' minheight='1550' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='51' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97786' id='50' param='vert' type-v2='layout-flow' w='98730' x='635' y='1107'>
+            <zone h='100000' id='64' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97786' id='63' param='vert' type-v2='layout-flow' w='98730' x='635' y='1107'>
                 <zone h='5810' id='15' type-v2='title' w='98730' x='635' y='1107'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1764,7 +1760,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='68599' id='16' is-fixed='true' name='Monthly Trend' w='44559' x='635' y='24345'>
+                <zone fixed-size='280' h='68595' id='16' is-fixed='true' name='Monthly Trend' w='44559' x='635' y='24345'>
                   <layout-cache minheight='299' minwidth='161' type-h='scalable' type-w='scalable' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1774,8 +1770,8 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='68599' id='20' is-fixed='true' name='Category Profit' w='54170' x='45194' y='24345'>
-                  <layout-cache fixed-size-h='134' minwidth='282' type-h='fixed' type-w='scalable' />
+                <zone fixed-size='263' h='33887' id='20' is-fixed='true' name='Category Profit' w='54170' x='45194' y='24345'>
+                  <layout-cache minwidth='282' type-h='fixed' type-w='scalable' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1784,7 +1780,17 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='5949' id='24' type-v2='text' w='98730' x='635' y='92944'>
+                <zone fixed-size='198' h='25727' id='60' is-fixed='true' name='Target Attainment' w='54170' x='45194' y='58232'>
+                  <layout-cache fixed-size-h='178' minwidth='180' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5953' id='24' type-v2='text' w='98730' x='635' y='92940'>
                   <formatted-text>
                     <run fontcolor='#000000' fontname='Benton Sans Book'>Source: Indian E-Commerce dataset (Kaggle, CC0), Apr 2018 to Mar 2019, 500 orders. Original author unknown, so this is not company data. &quot;Revenue&quot; is the Amount field; the source doesn&apos;t say whether it is before or after discounts or tax. Cleaned and aggregated in BigQuery; totals reconciled with source.</run>
                   </formatted-text>
@@ -1815,12 +1821,43 @@
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
           <zone h='98000' id='30' param='horz' type-v2='layout-flow' w='98666' x='667' y='1000'>
-            <zone h='98000' id='24' param='horz' type-v2='layout-flow' w='98666' x='667' y='1000'>
-              <zone h='98000' id='21' param='horz' type-v2='layout-flow' w='98666' x='667' y='1000'>
-                <zone h='98000' id='19' type-v2='layout-basic' w='98666' x='667' y='1000'>
-                  <zone h='98000' id='16' param='horz' type-v2='layout-flow' w='98666' x='667' y='1000'>
-                    <zone h='98000' id='9' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
-                      <zone h='5250' id='11' type-v2='title' w='98666' x='667' y='1000'>
+            <zone h='98000' id='19' type-v2='layout-basic' w='98666' x='667' y='1000'>
+              <zone h='98000' id='16' param='horz' type-v2='layout-flow' w='98666' x='667' y='1000'>
+                <zone h='98000' id='9' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
+                  <zone h='5250' id='11' type-v2='title' w='98666' x='667' y='1000'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='5250' id='31' param='vert' type-v2='layout-flow' w='98666' x='667' y='6250'>
+                    <zone forceUpdate='true' h='5250' id='25' type-v2='text' w='98666' x='667' y='6250'>
+                      <formatted-text>
+                        <run>Saree earns ₹53.5k in revenue but only ₹352 profit (0.7% margin), and Tables lose ₹4,011. Repeat customers are 18% of customers but 33% of revenue. Revenue is not concentrated: the top 20 customers are 24% of it, and four of them lost money.</run>
+                      </formatted-text>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                  <zone h='84375' id='32' param='horz' type-v2='layout-flow' w='98666' x='667' y='11500'>
+                    <zone h='84375' id='22' name='Subcategory Profit' w='45166' x='667' y='11500'>
+                      <layout-cache fixed-size-h='459' minwidth='322' type-h='fixed' type-w='scalable' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='84375' id='33' param='vert' type-v2='layout-flow' w='53500' x='45833' y='11500'>
+                      <zone h='20625' id='27' name='Customer Segments' w='53500' x='45833' y='11500'>
+                        <layout-cache fixed-size-h='157' minwidth='422' type-h='fixed' type-w='scalable' />
                         <zone-style>
                           <format attr='border-color' value='#000000' />
                           <format attr='border-style' value='none' />
@@ -1828,54 +1865,8 @@
                           <format attr='margin' value='4' />
                         </zone-style>
                       </zone>
-                      <zone h='5250' id='31' param='vert' type-v2='layout-flow' w='98666' x='667' y='6250'>
-                        <zone forceUpdate='true' h='5250' id='25' type-v2='text' w='98666' x='667' y='6250'>
-                          <formatted-text>
-                            <run>Saree earns ₹53.5k in revenue but only ₹352 profit (0.7% margin), and Tables lose ₹4,011. Repeat customers are 18% of customers but 33% of revenue. Revenue is not concentrated: the top 20 customers are 24% of it, and four of them lost money.</run>
-                          </formatted-text>
-                          <zone-style>
-                            <format attr='border-color' value='#000000' />
-                            <format attr='border-style' value='none' />
-                            <format attr='border-width' value='0' />
-                            <format attr='margin' value='4' />
-                          </zone-style>
-                        </zone>
-                      </zone>
-                      <zone h='84375' id='32' param='horz' type-v2='layout-flow' w='98666' x='667' y='11500'>
-                        <zone h='84375' id='22' name='Subcategory Profit' w='45166' x='667' y='11500'>
-                          <layout-cache fixed-size-h='459' minwidth='322' type-h='fixed' type-w='scalable' />
-                          <zone-style>
-                            <format attr='border-color' value='#000000' />
-                            <format attr='border-style' value='none' />
-                            <format attr='border-width' value='0' />
-                            <format attr='margin' value='4' />
-                          </zone-style>
-                        </zone>
-                        <zone h='84375' id='33' param='vert' type-v2='layout-flow' w='53500' x='45833' y='11500'>
-                          <zone h='20625' id='27' name='Customer Segments' w='53500' x='45833' y='11500'>
-                            <layout-cache fixed-size-h='157' minwidth='422' type-h='fixed' type-w='scalable' />
-                            <zone-style>
-                              <format attr='border-color' value='#000000' />
-                              <format attr='border-style' value='none' />
-                              <format attr='border-width' value='0' />
-                              <format attr='margin' value='4' />
-                            </zone-style>
-                          </zone>
-                          <zone h='63750' id='28' name='Top Customers' w='53500' x='45833' y='32125'>
-                            <layout-cache fixed-size-h='518' minwidth='260' type-h='fixed' type-w='scalable' />
-                            <zone-style>
-                              <format attr='border-color' value='#000000' />
-                              <format attr='border-style' value='none' />
-                              <format attr='border-width' value='0' />
-                              <format attr='margin' value='4' />
-                            </zone-style>
-                          </zone>
-                        </zone>
-                      </zone>
-                      <zone forceUpdate='true' h='3125' id='26' type-v2='text' w='98666' x='667' y='95875'>
-                        <formatted-text>
-                          <run>Customer analysis uses name + state as a proxy, because the source has no customer ID. &quot;Repeat&quot; is approximate.</run>
-                        </formatted-text>
+                      <zone h='63750' id='28' name='Top Customers' w='53500' x='45833' y='32125'>
+                        <layout-cache fixed-size-h='518' minwidth='260' type-h='fixed' type-w='scalable' />
                         <zone-style>
                           <format attr='border-color' value='#000000' />
                           <format attr='border-style' value='none' />
@@ -1884,6 +1875,17 @@
                         </zone-style>
                       </zone>
                     </zone>
+                  </zone>
+                  <zone forceUpdate='true' h='3125' id='26' type-v2='text' w='98666' x='667' y='95875'>
+                    <formatted-text>
+                      <run>Customer analysis uses name + state as a proxy, because the source has no customer ID. &quot;Repeat&quot; is approximate.</run>
+                    </formatted-text>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
                   </zone>
                 </zone>
               </zone>
@@ -1901,8 +1903,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='950' minheight='950' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='47' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='46' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
+            <zone h='100000' id='49' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='48' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
                 <zone h='5250' id='11' type-v2='title' w='98666' x='667' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2048,8 +2050,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='800' minheight='800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='34' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='33' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
+            <zone h='100000' id='36' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='35' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
                 <zone h='5250' id='12' type-v2='title' w='98666' x='667' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2358,7 +2360,7 @@
       </cards>
       <simple-id uuid='{C677C320-E49E-4D7A-91AD-D49ECA251237}' />
     </window>
-    <window class='dashboard' maximized='true' name='Regional Performance'>
+    <window class='dashboard' name='Regional Performance'>
       <viewpoints>
         <viewpoint name='City Profit' />
         <viewpoint name='State Profit' />
@@ -2445,7 +2447,7 @@
       </cards>
       <simple-id uuid='{7355DFCB-DC40-4022-A6BE-7DE0AA2067F4}' />
     </window>
-    <window class='dashboard' name='Product &amp; Customer'>
+    <window class='dashboard' maximized='true' name='Product &amp; Customer'>
       <viewpoints>
         <viewpoint name='Customer Segments' />
         <viewpoint name='Subcategory Profit' />
