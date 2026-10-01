@@ -140,3 +140,4 @@ Built by Abhineet Srivastava as a portfolio project.
 
 - LinkedIn: [abhineet-srivastava-](https://www.linkedin.com/in/abhineet-srivastava-/)
 - Kaggle: [abhineetsrivastavaa](https://www.kaggle.com/abhineetsrivastavaa)
+- Kaggle Notebook Link: [abhineetsrivastava](https://www.kaggle.com/code/abhineetsrivastavaa/india-e-commerce-where-sales-hide-low-profit)
